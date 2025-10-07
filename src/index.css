@@ -231,3 +231,9 @@ button:hover{
   margin-top: 1px;
   border-top: 1px solid #444;
 }
+
+.page-work .mask{
+  height: 300px;
+  overflow: hidden;
+  box-shadow: 15px 15px 40px #ccc;
+}

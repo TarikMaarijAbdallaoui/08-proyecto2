@@ -2,7 +2,7 @@ export const trabajos = [
   {
     id: "victorroblesweb",
     nombre: "Victor Robles Web",
-    url: "victorroblesweb",
+    url: "https://victorroblesweb.es/",
     tecnologías: "HTML, CSS, JS, PHP, MySQL",
     categorías: "Desarrollo web",
     descripción:
@@ -11,7 +11,7 @@ export const trabajos = [
   {
     id: "facebook",
     nombre: "Facebook",
-    url: "facebook.com",
+    url: "https://www.facebook.com/",
     tecnologías: "React, Node, Mongo",
     categorías: "Desarrollo web",
     descripción:
@@ -20,7 +20,7 @@ export const trabajos = [
   {
     id: "twitter",
     nombre: "Twitter",
-    url: "twitter.com",
+    url: "https://x.com/?lang=es",
     tecnologías: "HTML, CSS",
     categorías: "Maquetación web",
     descripción:
@@ -29,7 +29,7 @@ export const trabajos = [
   {
     id: "linkedin",
     nombre: "Linkedin",
-    url: "linkedin.com",
+    url: "https://es.linkedin.com/",
     tecnologías: "HTML, CSS, JS, PHP, Larvel",
     categorías: "Desarrollo web",
     descripción:
@@ -38,7 +38,7 @@ export const trabajos = [
   {
     id: "udemy",
     nombre: "Udemy",
-    url: "udemy.com/user/victor-robles-2/",
+    url: "https://www.udemy.com/user/victor-robles-2/",
     tecnologías: "Mean stack",
     categorías: "Desarrollo web",
     descripción:
@@ -47,7 +47,7 @@ export const trabajos = [
   {
     id: "youtube",
     nombre: "Youtube",
-    url: "youtube.com/c/VictorRoblesWeb",
+    url: "https://www.youtube.com/@victorroblesweb",
     tecnologías: "JS, React, PHP, Symfony",
     categorías: "Desarrollo web",
     descripción:
