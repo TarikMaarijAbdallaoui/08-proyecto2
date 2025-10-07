@@ -1,5 +1,6 @@
 import React from "react";
 import { trabajos } from "../data/trabajos";
+import { Link } from "react-router-dom";
 
 export const Portafolio = () => {
   return (
@@ -8,8 +9,10 @@ export const Portafolio = () => {
 
        {
         trabajos.map(trabajo => {
-          return( <article>
-            <h2>{trabajo.nombre}</h2>
+          return( <article key={trabajo.id}>
+            <span>{trabajo.categorías}</span>
+            <h2><Link to={"/proyecto/" + trabajo.id}>{trabajo.nombre}</Link></h2>
+            <h3>{trabajo.tecnologías}</h3>
           </article>)
          
         }) 

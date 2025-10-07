@@ -17,12 +17,20 @@ export const MisRutas = () => {
 
       <section className="content">
         <Routes>
-          <Route path="/" element={<Navigate to = "/inicio"/>} />
+          <Route path="/" element={<Navigate to="/inicio" />} />
           <Route path="/inicio" element={<Inicio />} />
           <Route path="/portafolio" element={<Portafolio />} />
           <Route path="/servicios" element={<Servicios />} />
           <Route path="/curriculum" element={<Curriculum />} />
           <Route path="/contacto" element={<Contacto />} />
+          <Route
+            path="*"
+            element={
+              <div className="page">
+                <h1 className="heading">Error 404</h1>
+              </div>
+            }
+          />
         </Routes>
       </section>
 
