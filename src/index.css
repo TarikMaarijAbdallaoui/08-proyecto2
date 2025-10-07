@@ -112,7 +112,7 @@ color: #444;
   font-weight: lighter;
 }
 
-.home a{
+.home .title a{
   padding: 7px;
   border-radius: 5px;
   color: white;
@@ -121,7 +121,7 @@ color: #444;
   transition: all 300ms;
 }
 
-.home a:hover{
+.home .title a:hover{
   background-color: black;
 }
 
